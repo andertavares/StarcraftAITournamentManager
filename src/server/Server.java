@@ -104,11 +104,11 @@ public class Server  extends Thread
                         Thread.sleep(gameRescheduleTimer);
                     }
                     
-                    log("Moving Write Directory to Read Directory");
                     
                     // move the write dir to the read dir if reading is allowed
                     if(ServerSettings.Instance().AllowRead.equalsIgnoreCase("yes"))
                     {
+                    	log("Moving Write Directory to Read Directory\n");
                     	ServerCommands.Server_MoveWriteToRead();
                     }
                 }
