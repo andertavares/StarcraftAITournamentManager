@@ -25,7 +25,7 @@ public class ServerSettings
 	public String 			ClearResults	 	= "ask";
 	public String 			ResumeTournament 	= "ask";
 	public String			DetailedResults		= "no";
-	public String			AllowRead			= "yes";
+	public String			AllowRead 			= "yes";
 	
 	public String			TournamentType		= "AllVsAll";
 	
