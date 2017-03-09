@@ -58,7 +58,8 @@ public class Server  extends Thread
 		if (!games.hasMoreGames())
 		{
 			System.err.println("Server: Games list had no valid games in it");
-			System.exit(-1);
+			System.err.println("Server: please shut down tournament!");
+			//System.exit(-1);
 		}
 		
 		int neededClients = 2;
